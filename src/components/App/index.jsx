@@ -13,7 +13,7 @@ export const App = () => (
         <Route path="/reservation">
           <Reservation />
         </Route>
-        <Route path="/">
+        <Route exact path="/">
           <Home />
         </Route>
       </Switch>
